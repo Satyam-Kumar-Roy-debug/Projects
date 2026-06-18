@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(to right,rgb(239, 11, 239) ,rgb(11, 243, 235));
+    min-height: 200vh;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: transparent;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav-links a{
+    font-size: 1.2rem;
+    color: antiquewhite;font-weight: 500;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-sign-in{
+    background-color: rgb(6, 142, 97);
+    color: antiquewhite;
+    padding: 18px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.Main{
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.Main-Content{
+    flex: 1;
+}
+.Main-Content h1{
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+}
+.badge{
+   font-size: 1.5rem;
+   padding: 15px 20px;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+   border-top-right-radius: 50px;
+   vertical-align: middle;
+}
+.badge.uiux{
+ background-color: rgb(209, 5, 209);
+ color: antiquewhite;
+}
+.badge.app{
+    background-color: aqua;
+    color: antiquewhite;
+}
