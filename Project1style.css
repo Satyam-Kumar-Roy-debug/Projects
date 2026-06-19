@@ -17,7 +17,7 @@ body{
 }
 .nav-links a{
     font-size: 1.2rem;
-    color: antiquewhite;font-weight: 500;
+    color: black;font-weight: 500;
 }
 .logo{
     display: flex;
@@ -38,18 +38,20 @@ body{
 }
 .Main{
     padding: 50px 5%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
 .Main-Content{
     flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 .Main-Content h1{
-    font-size: 3rem;
+    font-size: 5rem;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 .badge{
@@ -67,4 +69,56 @@ body{
 .badge.app{
     background-color: aqua;
     color: antiquewhite;
+}
+.Stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    font-size: 1.5rem;
+
+}
+.Main-Description{
+    font-size: 1.2rem;
+}
+.Right-Content{
+    padding-right: 5%;
+}
+.header-image{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 20px;
+}
+.Prime-Image{
+    width: 100%;
+    max-width: 1800px;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.Main2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5rem;
+    color: black;
+}
+.White{
+    background-color: white;
+    max-width:90%;
+    margin: 50px auto;
+    min-height: 100vh;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.about-Section{
+    display: flex;
+    padding: 80px 60px;
+    gap: 60px;
+    align-items: center;
+    background: var(--bg-light);
 }
