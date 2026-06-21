@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right,rgb(239, 11, 239) ,rgb(11, 243, 235));
+    background-image: linear-gradient(to right,rgb(172, 11, 230) 30% ,rgb(12, 237, 222) 70%);
     min-height: 200vh;
     margin: 0;
 }
@@ -7,8 +7,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
-    background-color: transparent;
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 6.5%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3) ;
+   
 }
 .nav-links{
     display: flex;
@@ -16,17 +19,27 @@ body{
     gap: 30px;
 }
 .nav-links a{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
     color: black;font-weight: 500;
+     filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.3));
+     text-decoration: none;
+}
+.nav-links a:hover{
+    color: blue;
+    font-size: 1.5rem;
 }
 .logo{
     display: flex;
     align-items: center;
     gap: 10px;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.3));
+
 }
 .logo-text{
     font-size: 1.5rem;
     font-weight: bold;
+     filter: drop-shadow(0px 2px 5px  rgba(0, 0, 0, 0.3));
 }
 .btn-sign-in{
     background-color: rgb(6, 142, 97);
@@ -35,6 +48,7 @@ body{
     border-radius: 25px;
     font-weight: bold;
     font-size: 1.2rem;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.3));
 }
 .Main{
     padding: 50px 5%;
@@ -91,7 +105,7 @@ body{
 }
 .Prime-Image{
     width: 100%;
-    max-width: 1800px;
+    max-width: 1500px;
     height: auto;
     border-radius: 30px;
     object-fit: cover;
@@ -108,17 +122,254 @@ body{
     color: black;
 }
 .White{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
     max-width:90%;
     margin: 50px auto;
     min-height: 100vh;
     border-radius: 30px;
     overflow: hidden;
 }
-.about-Section{
+.about-section{
     display: flex;
-    padding: 80px 60px;
-    gap: 60px;
     align-items: center;
+    gap: 80px;
+    padding-left: 5%;
+    padding-right: 10%;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
     background: var(--bg-light);
+    margin: 2%;
+    border-radius: 20px;
+}
+.mv-items{
+    display: flex;
+    font-size: 1.7rem;
+}
+.About{
+    font-size: 2rem;
+}
+.subtitle{
+    font-size: 1.5rem;
+}
+.about-image{
+    display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 10px;
+  flex: 1;
+}
+.Aimage{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.8);
+
+}
+.about-content{
+    padding-right: 2%;
+}
+.Paid-Templates{
+    margin: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+    display: flex;
+    gap: 80px;
+    padding-left: 60px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+.Paid-Content1{
+    border: 5px solid;
+    border-color: rgb(64, 2, 84);
+    padding: 10px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+     border-radius: 20px;
+    
+}
+.Paid-Content2{
+    border: 5px solid;
+    border-color: rgb(64, 2, 84);
+    padding: 10px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+     border-radius: 20px;
+    
+}
+.Paid-Content3{
+    border: 5px solid;
+    border-color: rgb(8, 91, 107);
+    padding: 10px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+    border-radius: 20px;
+}
+.Paid-Content4{
+    border: 5px solid;
+    border-color: rgb(8, 91, 107);
+    padding: 10px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+     border-radius: 20px;
+    
+}
+.paidimage1{
+    width: 300px;
+    height: auto;
+}
+.paidimage2{
+    width: 300px;
+    height: auto;
+}
+.paidimage3{
+    width: 300px;
+    height: 200px;
+}
+.paidimage4{
+    width: 300px;
+    height: 200px;
+}
+.Amount{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: rgb(2, 51, 51);
+}
+.Commitments-text{
+    font-size: 2rem;
+    padding: 2%;
+    flex: 1;
+}
+.Commitments{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+.CommitmentsImages{
+    display: flex;
+    gap: 20px;
+    margin: 2%;
+    justify-content: center;
+
+}
+.CImageLeft,.CImageRight{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.CommitmentsImages img{
+    border-radius: 20px;
+    object-fit: cover;
+    width: 250px;
+   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.8) ;
+}
+.CImage1 img{
+    width: 300px;
+    height: 300px;
+}
+.CImage2 img{
+    width: 300px;
+    height: 200px;
+}
+.CImage3 img{
+    width: 300px;
+    height: 200px;
+}
+.CImage4 img{
+    width: 300px;
+    height: 300px;
+}
+.StudentReview{
+    padding: 1%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    margin: 2%;
+}
+.Heading {
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.Heading h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.Boxes{
+    justify-content: center;
+    display: flex;
+    gap: 15%;
+    padding: 2%;
+    margin: 2%;
+}
+.SReview1{
+   padding: 1.5%;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
+    font-size: 1.5rem;
+}
+.Student{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1rem;
+}
+.FP{
+    border-radius: 20px;
+    width: 25%;
+    height: 50%;
+}
+.VP{
+    border-radius: 20px;
+    width: 25%;
+    height: 50%;
+}
+.CP{
+    border-radius: 20px;
+    width: 25%;
+    height: 50%;
+}
+.FamousTeacher{
+    padding: 1%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    margin: 2%;
+}
+.HeadingTeacher{
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+}
+.HeadingTeacher h1{
+      font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+.TeacherContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.Teacher{
+    flex: 1;
+    padding: 2%;
+    margin: 20px;
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 20px rgba(79, 2, 93, 0.9);
+}
+.teacherimage1{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
